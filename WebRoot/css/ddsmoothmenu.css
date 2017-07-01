@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*********************************************** 横向主导航条 ***********************************************/
+.ddsmoothmenu{}
+.ddsmoothmenu ul{margin:0;padding:0}
+/*主菜单设置*/
+.ddsmoothmenu ul li{position:relative;display:inline;float:right;margin:0px 4px}
+.ddsmoothmenu ul li a{display:block;height:30px;line-height:30px}
+.ddsmoothmenu ul li a span{display:block;padding:0px 15px}
+/*主菜单连接效果设置*/
+.ddsmoothmenu ul li a:link,.ddsmoothmenu ul li a:visited{color:#000}
+.ddsmoothmenu ul li a:hover{background:url(../images/mainmenu.gif) no-repeat center -30px}
+.ddsmoothmenu ul li a:hover span{color:#FFF}
+.ddsmoothmenu ul li a:active{background:url(../images/mainmenu.gif) no-repeat center top}
+.ddsmoothmenu ul li a:active span{color:#FFF}
+.ddsmoothmenu ul li a.selected{background:url(../images/mainmenu.gif) no-repeat center -30px}
+.ddsmoothmenu ul li a.selected span{color:#FFF}
+/*主菜单当前所在页面*/
+.ddsmoothmenu ul li a#menu_selected{background:url(../images/mainmenu.gif) no-repeat center top}
+.ddsmoothmenu ul li a#menu_selected span{color:#FFF}
+/*子集菜单设置*/
+.ddsmoothmenu ul.menulevel{position:absolute;left:0;display:none;visibility:hidden}
+.ddsmoothmenu ul.menulevel li{background:none;margin:0px;padding:0px;display:list-item;float:none}
+.ddsmoothmenu ul.menulevel li a{background:url(../images/mainmenu.gif) repeat-x left -60px;height:26px;line-height:26px;width:180px;padding:0px 5px;margin:0px;border-right:1px solid #999;border-bottom:1px solid #DFDFDF;border-left:1px solid #CCC}
+/*子集菜单连接效果设置*/
+.ddsmoothmenu ul.menulevel li ul{top:0}
+.ddsmoothmenu ul.menulevel li a:link,.ddsmoothmenu ul.menulevel li a:visited{color:#000}
+.ddsmoothmenu ul.menulevel li a:hover{background:url(../images/mainmenu.gif) repeat-x left -90px;color:#034fab;font-weight:bold}
+.ddsmoothmenu ul.menulevel li a.selected{background:url(../images/mainmenu.gif) repeat-x left -90px;color:#034fab;font-weight:bold}
+/*下拉箭头*/
+.ddsmoothmenu .downarrowclass{position:absolute;top:12px;right:8px}
+.ddsmoothmenu .rightarrowclass{position:absolute;top:8px;right:10px}
+/*阴影*/
+.ddshadow{position:absolute;left:0;top:0;width:0;height:0;background:url(../images/40.png);z-index:1}
+.toplevelshadow{/*opacity:0.8*/}
+* html .ddsmoothmenu{height:1%}/* Holly Hack for IE \*//*Holly Hack for IE7 and below*/
+* html .ddsmoothmenu ul li a{display:inline-block}/*IE6 hack to get sub menu links to behave correctly*/
+
+/*********************************************** 纵向主导航条 ***********************************************/
+.ddsmoothmenu-v{padding:0px 10px 0px 15px}
+.ddsmoothmenu-v ul{}
+/*主菜单设置*/
+.ddsmoothmenu-v ul li{position:relative}
+.ddsmoothmenu-v ul li a{display:block;height:31px;line-height:31px;vertical-align:middle}
+.ddsmoothmenu-v ul li a span{display:block;padding:0px 20px}
+/*主菜单连接效果设置*/
+.ddsmoothmenu-v ul li a:link,.ddsmoothmenu-v ul li a:visited{background:url(../images/leftmenu.gif) no-repeat center -31px;color:#000}
+.ddsmoothmenu-v ul li a:hover{background:url(../images/leftmenu.gif) no-repeat center top}
+.ddsmoothmenu-v ul li a:hover span{color:#FFF}
+.ddsmoothmenu-v ul li a:active{background:url(../images/leftmenu.gif) no-repeat center top}
+.ddsmoothmenu-v ul li a:active span{color:#FFF}
+.ddsmoothmenu-v ul li .selected:link,.ddsmoothmenu-v ul li a.selected:visited,.ddsmoothmenu-v ul li a.selected:active{background:url(../images/leftmenu.gif) no-repeat center top}
+.ddsmoothmenu-v ul li a.selected span{color:#FFF}
+/*主菜单当前所在页面*/
+.ddsmoothmenu-v ul li a#menu_selected{background:url(../images/leftmenu.gif) no-repeat center top}
+.ddsmoothmenu-v ul li a#menu_selected span{color:#FFF}
+/*子集菜单设置*/
+.ddsmoothmenu-v ul.menulevel{position:absolute;top:0;visibility:hidden;border-top:1px solid #CCC}
+.ddsmoothmenu-v ul.menulevel li{background:none;margin:0px;padding:0px;display:list-item}
+.ddsmoothmenu-v ul.menulevel li a{background:url(../images/mainmenu.gif) repeat-x left -60px;height:26px;line-height:26px;width:180px;padding:0px 5px;margin:0px;border-right:1px solid #999;border-bottom:1px solid #DFDFDF;border-left:1px solid #CCC}
+/*子集菜单连接效果设置*/
+.ddsmoothmenu-v ul.menulevel li a:link,.ddsmoothmenu-v ul.menulevel li a:visited{color:#000}
+.ddsmoothmenu-v ul.menulevel li a:hover{background:url(../images/mainmenu.gif) repeat-x left -90px;color:#034fab;font-weight:bold}
+.ddsmoothmenu-v ul.menulevel li a.selected{background:url(../images/mainmenu.gif) repeat-x left -90px;color:#034fab;font-weight:bold}
+/*子集菜单连接效果设置*/
+.ddsmoothmenu-v ul.menulevel li a:link,.ddsmoothmenu-v ul.menulevel li a:visited{color:#000}
+.ddsmoothmenu-v ul.menulevel li a:hover{background:url(../images/mainmenu.gif) repeat-x left -90px;color:#034fab;font-weight:bold}
+.ddsmoothmenu-v ul.menulevel li a.selected{background:url(../images/mainmenu.gif) repeat-x left -90px;color:#034fab;font-weight:bold}
+/*左侧箭头*/
+.ddsmoothmenu-v .rightarrowclass{position:absolute;top:10px;right:10px}
+.ddsmoothmenu-v ul.menulevel .rightarrowclass{position:absolute;top:8px;right:10px}
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu-v ul li {float:left;height:1%}
+* html .ddsmoothmenu-v ul li a {height:1%}

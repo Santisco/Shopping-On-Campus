@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+button:active,
+button:focus,
+button:hover {
+  outline: none;
+  background-position: 0 0;
+  color: red;
+  background-color: rgba(0, 0, 0, 1);
+}
+button {
+	border-radius: 4px;
+  position: relative;
+  width: 100%;
+  font-size: 20px;  
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin-top: 20px;
+  padding: 2px 10px;
+  color: rgba(0, 0, 0, 0.3);
+
+  border: none;
+  background: linear-gradient(to right, white 50%, transparent 50%);
+  background-color: rgba(240, 240, 240, 1);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: all 0.6s ease;
+}
+

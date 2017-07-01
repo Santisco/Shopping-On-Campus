@@ -1,0 +1,204 @@
+* {margin: 0; padding: 0; outline: 0;}
+
+
+body {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #e5e5e5;
+	font-size: 12px;
+	background:#bfbfbf;
+
+	
+}
+
+
+
+h1, h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin:0 0 15px 0;
+}
+
+
+h1 {
+	font-size: 36px;
+	letter-spacing: -1px;
+	line-height: 100%;
+}
+
+
+h2 {
+	font-size: 24px;
+}
+
+
+p {
+	margin: 0 0 15px 0;
+}
+
+a {
+	color: #3e3e3e;
+}
+
+
+
+.clear {
+	clear: both;
+}
+.wrap {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 960px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+
+
+.section {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 960px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	height: 500px;
+}
+
+
+.inner {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:30px 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.inner:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+}
+
+
+.subMenu {
+	height: 50px;
+	z-index: 1000;
+	width: 100%;
+	background: #0977bc;
+}
+
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+
+.subNavBtn {
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	height: 35px;
+	width: 10%;
+	float: left;
+	margin: 0px 0px 0 0;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 15px 2% 0 2%;
+	text-align: center;
+	
+	color: #fff;
+}
+.subMenu a:hover {
+	background: #1783c7;
+}
+
+.active {
+	background: #25aae1;
+}
+.end {
+	margin: 0;
+}
+
+
+
+
+/* SECTIONS */
+.sTop {
+	min-height: 200px;
+	background:#fff;
+	color:#3d3d3d;
+	padding: 50px 0;
+	height: 350px;
+	
+}
+
+.s1 {
+	background:#184764;
+	color:#fff;
+	
+}
+
+
+.s2 {
+	background: #313131;
+}
+.s2 a {
+	color: #fff;
+}
+
+.s3 {
+	background: #1b83b3;
+}
+
+
+.s4 {
+	background: #5aa3c4;
+}
+
+
+
+.s5 {
+	background: #bce1f1;
+	color: #3d3d3d;
+	
+}
+
+.s6 {
+	background: #161616;
+}
+
+
+
+/* Effect 15: scale down, reveal */
+.cl-effect-15 a {
+		text-decoration: none;
+
+	color:  #184764;
+	font-weight: 700;
+	text-shadow: none;
+}
+
+.cl-effect-15 a::before {
+	color: #000;
+	content: attr(data-hover);
+	position: absolute;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.9s;
+}
+
+.cl-effect-15 a:hover::before,
+.cl-effect-15 a:focus::before {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+	opacity: 0;
+}
+

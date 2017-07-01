@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'Xyyv';
+	src:url('Xyyv.eot?-pso8f2');
+	src:url('Xyyv.eot?#iefix-pso8f2') format('embedded-opentype'),
+		url('Xyyv.woff?-pso8f2') format('woff'),
+		url('Xyyv.ttf?-pso8f2') format('truetype'),
+		url('Xyyv.svg?-pso8f2#Xyyv') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'Xyyv';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+	content: "\f036";
+}
+
+.icon-page-first:before {
+	content: "\f050";
+}
+
+.icon-page-last:before {
+	content: "\f056";
+}
+
+.icon-cross:before {
+	content: "\f117";
+}
+
+.icon-menu:before {
+	content: "\f120";
+}
+
+.icon-ready:before {
+	content: "\f609";
+}
+
+.icon-stop:before {
+	content: "\f617";
+}
+
+.icon-prev:before {
+	content: "\f600";
+}
+
+.icon-next:before {
+	content: "\f601";
+}
+
+.icon-more:before {
+	content: "\f602";
+}
+
+.icon-email:before {
+	content: "\f603";
+}
+
+.icon-chat:before {
+	content: "\f604";
+}
+
+.icon-tel:before {
+	content: "\f605";
+}
+
+.icon-edit:before {
+	content: "\f606";
+}
+
+.icon-close:before {
+	content: "\f607";
+}
+
+.icon-send:before {
+	content: "\f608";
+}
+
+.icon-share:before {
+	content: "\f60a";
+}
+
+.icon-next2:before {
+	content: "\f616";
+}
+
+.icon-prev2:before {
+	content: "\f60b";
+}
+
+.icon-paper:before {
+	content: "\f60c";
+}
+
+.icon-demo:before {
+	content: "\f60d";
+}
+
+.icon-customize:before {
+	content: "\f60e";
+}
+
+.icon-design:before {
+	content: "\f611";
+}
+
+.icon-code:before {
+	content: "\f612";
+}
+
+.icon-cloud:before {
+	content: "\f613";
+}
+
+.icon-log:before {
+	content: "\f614";
+}
+
+.icon-buy:before {
+	content: "\f615";
+}

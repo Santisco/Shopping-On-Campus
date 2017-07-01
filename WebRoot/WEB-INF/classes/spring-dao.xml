@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+	
+	<!--           daos          -->
+	<bean id="userDao" class="shop.dao.impl.UserDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="categoryDao" class="shop.dao.impl.CategoryDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="productDao" class="shop.dao.impl.ProductDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="gonggaoDao" class="shop.dao.impl.GonggaoDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="picDao" class="shop.dao.impl.PicDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="shouhuoDao" class="shop.dao.impl.ShouhuoDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="gouwucheDao" class="shop.dao.impl.GouwucheDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	
+	<bean id="dingdanDao" class="shop.dao.impl.DingdanDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	<bean id="pingjiaDao" class="shop.dao.impl.PingjiaDaoImpl" >
+		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
+	</bean>
+	
+	
+	
+	
+	
+	
+	
+	
+</beans>

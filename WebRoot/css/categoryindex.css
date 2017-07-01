@@ -1,0 +1,321 @@
+.cates{
+	margin: 0 0 4rem 1rem;
+	overflow: visible;
+}
+
+.cates li{
+	float: left;
+	width: 6.5rem;
+	text-align: center;
+}
+
+.cates a {
+	display: inline-block;
+	height: 1.8rem;
+	line-height: 1.8rem;
+}
+
+.cates .active a{
+	background: #ECECEC;
+	padding: 0 1.2rem;
+	border-radius: 1rem;
+}
+
+figure {
+	position: relative;
+float: left;
+overflow: hidden;
+width: 100%;
+height: 100%;
+background: #3085a3;
+text-align: center;
+cursor: pointer;
+margin: 0;
+}
+
+figure img {
+	position: relative;
+	display: block;
+}
+
+figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure figcaption::before,
+figure figcaption::after {
+	pointer-events: none;
+}
+
+figure figcaption,
+figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+figure h2 {
+	word-spacing: -0.15em;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+figure h2 span {
+	font-weight: 800;
+}
+
+figure h2,
+figure p {
+	margin: 0;
+}
+
+figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/***** Winston *****/
+figure.effect-winston {
+	background: #3C3C3C;
+	text-align: left;
+}
+
+figure.effect-winston img {
+	-webkit-transition: opacity 0.45s;
+	transition: opacity 0.45s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-winston figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(triangle.svg) no-repeat center center;
+	background-size: 100% 100%;
+	content: '';
+	-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+	transition: opacity 0.45s, transform 0.45s;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(45deg);
+	-webkit-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+
+figure.effect-winston h2 {
+	letter-spacing: 2px;
+	opacity:0;
+	transition: opacity 0.45s;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-winston h2 span{
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+figure.effect-winston h2 div{
+	font-size: 0.9rem;
+margin-top: .2rem;
+margin-left: 1.4rem;
+}
+
+figure.effect-winston p {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0 8% 8% 0;
+}
+figure.effect-winston figcaption > a{
+	-webkit-transform: rotate3d(0,0,1,73deg);
+transform: rotate3d(0,0,1,73deg);
+margin: -3rem 0 0 -1rem;
+}
+figure.effect-winston p>a {
+	margin: 0 10px;
+	color: #626262;
+	font-size: 170%;
+}
+
+figure.effect-winston p>a:hover,
+figure.effect-winston p>a:focus {
+	color: #009966;
+}
+
+figure.effect-winston p>a>i {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,50px,0);
+	transform: translate3d(0,50px,0);
+}
+
+figure.effect-winston:hover img {
+	opacity: 0.6;
+}
+
+figure.effect-winston:hover h2 {
+	opacity:1;
+	-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+	transition: opacity 0.45s, transform 0.45s;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-winston:hover figcaption::before {
+	opacity: 0.7;
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+figure.effect-winston:hover p i {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-winston:hover p a:nth-child(2) i {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-winston:hover p a:first-child i {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+/***** Jazz *****/
+figure.effect-jazz{
+	background: #3C3C3C;
+}
+
+figure.effect-jazz figcaption::after,
+figure.effect-jazz img,
+figure.effect-jazz p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-jazz figcaption {
+	padding: 2em 1em;
+}
+
+figure.effect-jazz figcaption::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
+	transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+figure.effect-jazz p,
+figure.effect-jazz h2{
+	padding: 0.5em 2em;
+	text-transform: none;
+	opacity: 0;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+}
+
+figure.effect-jazz h2 {
+	letter-spacing: 2px;
+	padding-top: 28%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-jazz h2 span{
+	letter-spacing: 0;
+	font-size:1rem;
+}
+
+figure.effect-jazz:hover img {
+	opacity: 0.2;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);
+}
+
+figure.effect-jazz:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+}
+
+figure.effect-jazz:hover h2,
+figure.effect-jazz:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+.items {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.items li {
+position: relative;
+width: 29.333%;
+height: auto;
+margin: 2%;
+float: left;
+}
+
+.items li:first-child figure.effect-winston{
+	background: transparent;
+}
+
+.items li:first-child figure.effect-winston figcaption{
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.items li:first-child figure.effect-winston:hover figcaption{
+	background: rgba(0, 0, 0, 0);
+}
+
+.items li:first-child figure.effect-winston h2{
+	opacity: 1;
+}
+
+.items li:first-child figure.effect-winston:hover h2{
+	opacity: 0;
+}
+
+.items li:first-child figure.effect-winston figcaption::before{
+	display: none;
+}
+
+.items li:first-child figure.effect-winston:hover img {
+	opacity: 1;
+}

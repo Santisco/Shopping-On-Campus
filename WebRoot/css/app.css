@@ -1,0 +1,375 @@
+@font-face {
+	font-family: NotoSans;
+	src: url("fonts/NotoSans-Regular.ttf");
+}
+*,:before,:after {
+	-o-box-sizing:content-box;
+	-ms-box-sizing:content-box;
+	box-sizing:border-box;
+}
+html,body {
+	height:100%;
+	font-family: NotoSans,"Microsoft Yahei",Arial,Helvetica,sans-serif;
+}
+body {
+	color:#333;
+	background:#fff;
+}
+img {
+	border:0;
+	max-width:100%;
+	height:auto;
+}
+a {
+	color:#3D3D3D;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+}
+input,textarea {
+	-webkit-appearance: none;
+}
+.ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+.wrap {
+	max-width:1280px;
+	min-width:750px;
+	margin:0 auto;
+	box-shadow:0 0 10px #CCC;
+	overflow: hidden;
+}
+.header {
+	position: relative;
+	height:22rem;
+	background:#e0e0e0;
+}
+.header .logo {
+	display:block;
+	width:15rem;
+	margin:4rem auto 0;
+}
+.header .grid {
+	position:absolute;
+	top:0;
+	height:22rem;
+}
+nav {
+	position:absolute;
+	width:100%;
+	top:12rem;
+	right:0;
+	text-align:center;
+}
+nav>a {
+	display: inline-block;
+	color:#3a3a3a;
+	font-size:1.2rem;
+	width:20%;
+}
+nav>a.active {
+	color:#096;
+}
+nav>a>div:nth-child(1) {
+	letter-spacing:0.15rem;
+}
+nav>a>div:nth-child(2) {
+	font-size:1rem;
+	margin-top:0.5rem;
+	margin-left: -0.15rem;
+}
+main {
+	position: relative;
+	padding:3rem 5rem 0;
+	min-height:50rem;
+	overflow: visible;
+}
+footer {
+	position: relative;
+	min-height:18rem;
+	clear:both;
+	overflow: hidden;
+}
+footer .bg {
+	position:absolute;
+	top:3rem;
+	left: -5rem;
+	height:20rem;
+	width:200%;
+	background:#F5F5F5;
+	-webkit-transform: rotate(-8deg);
+	-ms-transform: rotate(-8deg);
+	transform: rotate(-8deg);
+}
+footer .subscribe {
+	position:absolute;
+	top:10rem;
+	z-index:2;
+}
+footer .subscribe * {
+	font-size:0.8rem;
+}
+footer .snav {
+	position:absolute;
+	top:14rem;
+	z-index:2;
+}
+footer .snav ul {
+	width:100%;
+	margin:4.3rem 0 0 0;
+	overflow: visible;
+}
+footer .snav li {
+	float: left;
+	margin-right:1.2rem;
+}
+footer .subscribe h4 {
+	font-weight:bold;
+	margin:0;
+}
+footer .subscribe p {
+	margin:0.5rem 0;
+}
+footer .subscribe input {
+	border:2px solid #ddd;
+	height:39px;
+	width:16rem;
+	padding-left:10px;
+	outline: none;
+	border-radius:5px;
+}
+footer .subscribe button {
+	position:absolute;
+	border: none;
+	background:#096;
+	color:#fff;
+	height:35px;
+	width:4rem;
+	bottom:2px;
+	left:11.87rem;
+	z-index:2;
+	outline: none;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+footer .copyright {
+	position:absolute;
+	top:16.5rem;
+	font-size:0.8rem;
+	color:#C5C5C5;
+	z-index:2;
+}
+.tooltip {
+	border-radius:0.3rem;
+}
+.tooltip-body {
+	font-size:0.8rem;
+}
+.mobile-read h5 {
+	border-top:2px solid #000;
+	margin-top:3rem;
+}
+.mobile-read #qrcode {
+	margin-top: .5rem;
+}
+.pagination li {
+	float: left;
+	margin:0 0.5rem;
+}
+.pagination a {
+	display:block;
+	color:#fff;
+	background:#CECECE;
+	height:2rem;
+	width:2rem;
+	text-align:center;
+	border-radius:2rem;
+	font-size:1rem;
+	line-height:2rem;
+}
+.pagination li.active a {
+	background:#096;
+}
+.pagination .disabled {
+	display: none;
+}
+.pagination .pre,.pagination .next {
+	font-family: 'Xyyv';
+	color:#096;
+	font-size:2rem;
+	background:#fff;
+}
+.pagination .pre:before {
+	content: "\e600";
+}
+.pagination .next:before {
+	content: "\e601";
+}
+#backtop {
+	display:none;
+	position:fixed;
+	bottom:8rem;
+	right:1rem;
+	color:#096;
+	z-index:10;
+}
+#backtop i {
+	font-size:4rem;
+}
+#backtop div {
+	font-size:0.8rem;
+	text-align:center;
+}
+.animated {
+	-webkit-animation-duration:1s;
+	animation-duration:1s;
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both;
+}
+.animated.infinite {
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+.animated.hinge {
+	-webkit-animation-duration:2s;
+	animation-duration:2s;
+}
+@-webkit-keyframes bounceInLeft {
+	0% {
+	opacity:0;
+	-webkit-transform: translateX(-2000px);
+	transform: translateX(-2000px);
+}
+60% {
+
+	opacity:1;
+	-webkit-transform: translateX(30px);
+	transform: translateX(30px);
+}
+80% {
+	-webkit-transform: translateX(-10px);
+	transform: translateX(-10px);
+}
+100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+}
+@keyframes bounceInLeft {
+	0% {
+	opacity:0;
+	-webkit-transform: translateX(-2000px);
+	-ms-transform: translateX(-2000px);
+	transform: translateX(-2000px);
+}
+60% {
+	opacity:1;
+	-webkit-transform: translateX(30px);
+	-ms-transform: translateX(30px);
+	transform: translateX(30px);
+}
+80% {
+	-webkit-transform: translateX(-10px);
+	-ms-transform: translateX(-10px);
+	transform: translateX(-10px);
+}
+100% {
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+}
+.bounceInLeft {
+	-webkit-animation-name:bounceInLeft;
+	animation-name:bounceInLeft;
+}
+.follow {
+	margin-top:15rem;
+}
+.follow li {
+	float: left;
+	width:25%;
+	margin:0 4%;
+}
+.follow a {
+	text-align:center;
+	display:block;
+	height:8rem;
+	width:8rem;
+	line-height:8rem;
+	border:1px solid #ccc;
+	border-radius:4rem;
+	font-size:2rem;
+	margin:0 auto;
+	color:#999;
+}
+.support {
+	padding:0 5rem;
+}
+.support>h4 {
+	margin:0 0 2rem;
+}
+.support li {
+	background:#F0F0F0;
+	padding:0 1rem;
+	border-radius:0.3rem;
+	margin-bottom:1rem;
+}
+.support .accordion-body {
+	font-size:0.9rem;
+	line-height:1.8rem;
+	color:#888;
+}
+.unsubscribe {
+	text-align:center;
+	margin-top:5rem;
+}
+.unsubscribe button {
+	display:block;
+	background:#096;
+	color:#fff;
+	height:3rem;
+	line-height:3rem;
+	width:8rem;
+	margin:3rem auto;
+	border-radius:0.3rem;
+	border: none;
+}
+@media only screen and (max-width:640px) {
+	html {
+	font-size:16px
+	}
+}
+
+
+@media only screen and (min-width:641px) and (max-width:960px) {
+	html {
+	font-size:16px
+}
+main {
+	padding:3rem 0 0;
+}
+nav>a {
+	width:25%;
+}
+}
+@media only screen and (min-width:961px) and (max-width:1280px) {
+	html {
+	font-size:18px
+}
+}
+@media only screen and (min-width:1281px) and (max-width:1680px) {
+	html {
+	font-size:20px
+}
+}
+@media only screen and (min-width:1681px) {
+	html {
+	font-size:20px
+}
+}

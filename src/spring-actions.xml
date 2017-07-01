@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+	
+	
+	<bean id="manageAction" class="shop.action.ManageAction" scope="prototype">
+
+		<property name="userDao"><ref bean="userDao" /></property>
+		<property name="categoryDao"><ref bean="categoryDao" /></property>
+		<property name="productDao"><ref bean="productDao" /></property>
+		<property name="gonggaoDao"><ref bean="gonggaoDao" /></property>
+		<property name="picDao"><ref bean="picDao" /></property>
+		<property name="dingdanDao"><ref bean="dingdanDao" /></property>
+		<property name="pingjiaDao"><ref bean="pingjiaDao" /></property>
+	</bean>
+	
+	
+	<bean id="indexAction" class="shop.action.IndexAction" scope="prototype">
+		<property name="productDao"><ref bean="productDao" /></property>
+		<property name="gonggaoDao"><ref bean="gonggaoDao" /></property>
+		<property name="userDao"><ref bean="userDao" /></property>
+		<property name="shouhuoDao"><ref bean="shouhuoDao" /></property>
+		<property name="gouwucheDao"><ref bean="gouwucheDao" /></property>
+		<property name="dingdanDao"><ref bean="dingdanDao" /></property>
+		<property name="pingjiaDao"><ref bean="pingjiaDao" /></property>
+		
+	</bean>
+	
+	
+	
+	
+	
+</beans>

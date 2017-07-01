@@ -1,0 +1,304 @@
+.Xcontent{
+	width: 100%;
+	height: 596px;
+	min-width: 1200px;
+	
+}
+.Xcontent01{
+	width: 1200px;
+	height: 596px;;
+	margin: auto;
+	overflow: hidden;
+}
+.Xcontent02>a>p{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 14px;
+	color: #595959;
+	margin-top: 30px;
+	float: left;
+}
+.Xcontent02>a>p:hover{
+	color: #cd2426;
+}
+.Xcontent03>p{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	color: #595959;
+	margin-top: 32px;
+	float: left;
+	margin-left: 2px;
+	cursor: pointer;
+}
+.Xcontent04>p{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	color: #595959;
+	margin-top: 33px;
+	float: left;
+	margin-left: 2px;
+	cursor: pointer;
+}
+.Xcontent05{
+	width: 1198px;
+	height: 484px;
+	border: 1px solid #a4a4a4;
+	margin-top: 70px;
+}
+.Xcontent06{
+	width: 429px;
+	height: 430px;
+	margin-top: 26px;
+	margin-left: 40px;
+	float: left;
+}
+.Xcontent08{
+	float: left;
+	width: 78px;
+	height: 430px;
+	margin-top: 26px;
+	margin-left: 20px;
+}
+.Xcontent07{
+	width: 76px;
+	height: 76px;
+	border: 1px solid #e8e8e8;
+}
+.Xcontent07>img{
+	width: 100%;
+	height: 100%;
+}
+.Xcontent09{
+	width: 76px;
+	height: 76px;
+	margin-top: 10px;
+	border: 1px solid #e8e8e8;
+}
+.Xcontent09>img{
+	width: 100%;
+	height: 100%;
+}
+.Xcontent10{
+	width: 76px;
+	height: 76px;
+	margin-top: 10px;
+	border: 1px solid #e8e8e8;
+}
+.Xcontent10>img{
+	width: 100%;
+	height: 100%;
+}
+.Xcontent11{
+	width: 76px;
+	height: 76px;
+	margin-top: 10px;
+	border: 1px solid #e8e8e8;
+}
+.Xcontent11>img{
+	width: 100%;
+	height: 100%;
+}
+.Xcontent12{
+	width: 76px;
+	height: 76px;
+	border: 1px solid #e8e8e8;
+	margin-top: 10px;
+}
+.Xcontent12>img{
+	width: 100%;
+	height: 100%;
+}
+.Xcontent13{
+	width: 554px;
+	height: 484px;
+	float: right;
+}
+.Xcontent14>a>p{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 24px;
+	color: #333;margin-top: 26px;
+	float: left;
+}
+.Xcontent15>p{
+	float: left;
+	margin-top: 32px;
+	margin-left: 10px;
+}
+.Xcontent16>p{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	color: #9f9f9f;
+	margin-top: 65px;
+}
+.Xcontent17{
+	width: 502px;
+	height: 117px;
+	background: #f5f3ef;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.Xcontent18{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	color: #666a6e;
+	margin-top: 20px;
+	margin-left: 16px;
+	float: left;
+}
+.Xcontent19{
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size: 18px;
+	float: left;
+	color: #d7282d;
+	margin-left: 20px;
+	margin-top: 4px;
+}
+.Xcontent19>span{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 28px;
+	color: #cd2426;
+	
+}
+.Xcontent20{
+	height: 20px;
+	width: 100px;
+	margin-top: 50px;
+}
+.Xcontent21{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	color: #666a6e;
+	margin-left: 16px;
+	line-height: 20px;
+	float: left;
+}
+.Xcontent20>img{
+	float: left;
+	margin-top: 1px;
+	margin-left: 28px;
+}
+.Xcontent22{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	line-height: 20px;
+	color: #cd2426;
+	margin-left: 10px;
+	float: left;
+}
+
+.Xcontent23{
+	height: 20px;
+	width: 502px;
+	margin-top: 11px;
+}
+.Xcontent24{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	color: #666a6e;
+	margin-left: 16px;
+	line-height: 20px;
+	float: left;
+}
+.Xcontent25{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	color: #6e7372;
+	margin-left: 28px;
+	float: left;
+	line-height: 20px;
+}
+
+.Xcontent27{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 14px;
+	color: #605f5f;
+	margin-top: 34px;
+	margin-left: 16px;
+	float: left;
+}
+.Xcontent28{
+	border: 1px solid #e8e8e8;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 16px;
+	margin-left: 30px;
+}
+.Xcontent28>img{
+ width: 100%;
+	height: 100%;
+
+	
+}
+.Xcontent29>img{
+	width: 100%;
+	height: 100%;
+	
+}
+.Xcontent29{
+	float: left;
+	margin-top: 16px;
+   margin-left: 20px;	
+	border: 1px solid #e8e8e8;
+	width: 50px;
+	height: 50px;
+}
+.Xcontent30{
+	width: 554px;
+	height: 100px;
+	overflow: hidden;
+}
+.Xcontent31{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 14px;
+	color: #605f5f;
+	line-height: 100px;
+	margin-left: 16px;
+	float: left;
+}
+.Xcontent32{
+	float: left;
+	margin-top: 34px;
+	margin-left: 30px;
+}
+	
+.input{
+	height: 30px;
+	width: 60px;
+	margin-top: 34px;
+	border: 1px solid #dddddd;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+}
+.Xcontent33>img{
+	float: left;
+	margin-top: 34px;
+}
+.Xagain{
+	width: 1198px;
+	height: 334px;
+	margin: auto;
+	border: 1px solid #e1e1e1;
+	margin-top: 10px;
+}
+.Xagain01{
+	width: 1198px;
+	height: 42px;
+	background: #f5f5f5;
+}
+.Xagain01>p{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 18px;
+	color: #686868;
+	line-height: 42px;
+	margin-left: 20px;
+}
+.Xcontent34{
+	margin-left: 16px;
+	float: left;
+	
+}
+.Xcontent35{
+	float: left;
+	margin-left: 20px;
+}
